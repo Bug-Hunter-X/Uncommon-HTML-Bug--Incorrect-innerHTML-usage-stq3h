@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in HTML related to using innerHTML with a non-string value in Javascript.  The bug causes the div element to be unexpectedly empty, even though it should contain text. The solution involves ensuring that values assigned to innerHTML are strings.
